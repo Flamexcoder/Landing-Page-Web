@@ -1,21 +1,64 @@
-# Responsive SaaS Landing Page (HTML, CSS, JavaScript)
+# FlowSight – Premium SaaS Landing Page (HTML, CSS, JavaScript)
 
-This project is a **modern, responsive SaaS landing page** built using **HTML5, CSS3, and JavaScript**.
+FlowSight is a **modern, SaaS-style landing page** built to demonstrate
+professional frontend development and product UI thinking.
 
-### Key Features
-- Responsive layout for desktop and mobile
-- Clean and semantic HTML structure
-- Modern CSS using Flexbox and Grid
-- JavaScript-based user interactions
-- Optimized for performance and usability
+This project focuses on **clean layout, strong visual hierarchy, subtle
+interactions, and conversion-focused design** — similar to what modern
+B2B SaaS startups use.
 
-### Use Case
-Ideal for startups, product launches, and marketing campaigns.
+---
 
-### Skills Demonstrated
-- Frontend Development
-- Responsive Web Design
-- UI/UX Implementation
-- Basic JavaScript Interactivity
+## 🔹 What This Project Demonstrates
 
-This project represents a **real-world client-ready landing page**, suitable for business websites and marketing funnels.
+- Modern SaaS layout and spacing
+- Responsive design (desktop & mobile)
+- Clean, semantic HTML5 structure
+- Modular CSS with Flexbox & Grid
+- JavaScript-powered interactions and animations
+- Dashboard-style UI elements
+- Client-ready folder organization
+
+---
+
+## 🔹 Interactive Features
+
+- Smooth scrolling navigation
+- Animated statistics on scroll
+- Micro-interactions on CTA buttons
+- Subtle dashboard chart animation
+- No external libraries (pure JavaScript)
+
+---
+
+## 🔹 Tech Stack
+
+- HTML5
+- CSS3 (Flexbox, Grid, modern styling)
+- JavaScript (Vanilla)
+- Git & GitHub
+
+---
+
+## 🔹 Ideal Use Cases
+
+- SaaS product landing pages
+- Startup marketing websites
+- Analytics or dashboard-based products
+- B2B software companies
+
+---
+
+## 🔹 Why This Matters
+
+This is **not a static demo**.  
+It represents how I build **real-world, client-ready landing pages**
+that are visually polished, interactive, and aligned with modern SaaS
+design standards.
+
+---
+
+## 🔹 Portfolio Note
+
+This project is created for **portfolio demonstration purposes** and
+showcases frontend skills suitable for professional client work.
