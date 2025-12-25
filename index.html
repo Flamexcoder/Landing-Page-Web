@@ -1,78 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>LaunchPro – Grow Your Product Faster</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>FlowSight – Understand User Behavior Clearly</title>
+  <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
 
-  <!-- HEADER -->
-  <header class="header">
-    <div class="container nav">
-      <h1 class="logo">LaunchPro</h1>
-      <nav>
-        <a href="#features">Features</a>
-        <a href="#pricing">Pricing</a>
-        <a href="#contact" class="btn-primary">Get Started</a>
-      </nav>
-    </div>
-  </header>
+<header class="nav">
+  <div class="container nav-flex">
+    <h1 class="logo">FlowSight</h1>
+    <nav>
+      <a href="#">Product</a>
+      <a href="#">Pricing</a>
+      <a href="#" class="btn-outline">Login</a>
+      <a href="#" class="btn-primary">Get Started</a>
+    </nav>
+  </div>
+</header>
 
-  <!-- HERO -->
-  <section class="hero">
-    <div class="container hero-content">
-      <div>
-        <h2>Launch Your Product Faster</h2>
-        <p>Build, test, and launch high-converting landing pages with confidence.</p>
-        <button class="btn-primary" id="ctaBtn">Start Free Trial</button>
-      </div>
-      <img src="assets/hero.svg" alt="Product Illustration">
-    </div>
-  </section>
-
-  <!-- FEATURES -->
-  <section id="features" class="features">
-    <div class="container">
-      <h3>Why Choose LaunchPro?</h3>
-      <div class="feature-grid">
-        <div class="card">⚡ Fast Performance</div>
-        <div class="card">📱 Fully Responsive</div>
-        <div class="card">🔒 Secure & Reliable</div>
+<section class="hero">
+  <div class="container hero-grid">
+    <div>
+      <h2>See how users actually move through your product</h2>
+      <p>
+        FlowSight transforms raw analytics into clear, visual user journeys
+        so product teams can fix drop-offs faster.
+      </p>
+      <div class="cta-row">
+        <button class="btn-primary">Start Free</button>
+        <button class="btn-secondary">View Demo</button>
       </div>
     </div>
-  </section>
 
-  <!-- PRICING -->
-  <section id="pricing" class="pricing">
-    <div class="container">
-      <h3>Simple Pricing</h3>
+    <div class="dashboard">
+      <div class="dash-card">
+        <h4>User Flow Overview</h4>
+        <div class="chart"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="stats">
+  <div class="container stats-grid">
+    <div><strong>32%</strong><span>Drop-off reduced</span></div>
+    <div><strong>2 min</strong><span>Setup time</span></div>
+    <div><strong>100%</strong><span>No-code</span></div>
+  </div>
+</section>
+
+<section class="features">
+  <div class="container">
+    <h3>Designed for product teams</h3>
+    <div class="feature-grid">
+      <div class="feature-card">📊 Visual funnels & journeys</div>
+      <div class="feature-card">⚡ Instant insights</div>
+      <div class="feature-card">🔒 Read-only access</div>
+      <div class="feature-card">🧪 QA-friendly metrics</div>
+    </div>
+  </div>
+</section>
+
+<section class="trust">
+  <div class="container trust-grid">
+    <div>
+      <h3>We never touch production data</h3>
+      <p>
+        FlowSight connects securely using read-only permissions and never
+        modifies your application or analytics pipeline.
+      </p>
+    </div>
+    <div class="code-box">
+      <code>
+        Access: READ_ONLY<br/>
+        Events: ANALYTICS<br/>
+        Scope: VIEW_ONLY
+      </code>
+    </div>
+  </div>
+</section>
+
+<section class="pricing">
+  <div class="container">
+    <h3>Simple pricing</h3>
+    <div class="price-cards">
       <div class="price-card">
         <h4>Starter</h4>
-        <p class="price">$19/month</p>
-        <button class="btn-secondary">Choose Plan</button>
+        <p class="price">Free</p>
+        <span>Up to 1 project</span>
+      </div>
+      <div class="price-card featured">
+        <h4>Growth</h4>
+        <p class="price">$29/mo</p>
+        <span>Unlimited funnels</span>
+      </div>
+      <div class="price-card">
+        <h4>Enterprise</h4>
+        <p class="price">Custom</p>
+        <span>Advanced controls</span>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- CONTACT -->
-  <section id="contact" class="contact">
-    <div class="container">
-      <h3>Contact Us</h3>
-      <form id="contactForm">
-        <input type="email" placeholder="Your email" required />
-        <button type="submit" class="btn-primary">Submit</button>
-      </form>
-      <p id="formMsg"></p>
-    </div>
-  </section>
+<footer class="footer">
+  © 2025 FlowSight. Portfolio demonstration project.
+</footer>
 
-  <footer class="footer">
-    © 2025 LaunchPro. All rights reserved.
-  </footer>
-
-  <script src="js/script.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
-
